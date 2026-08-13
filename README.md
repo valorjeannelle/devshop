@@ -6,9 +6,9 @@ Site vitrine E-commerce minimaliste
 git clone https://github.com/valorjeannelle/devshop.git`
 
 ### Technologie
--HTML 
--CSS
--JavaScript
+- HTML 
+- CSS
+- JavaScript
 
-###Lien live
+### Lien live
 https://valorjeannelle.github.io/devshop/
