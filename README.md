@@ -1,5 +1,5 @@
 # DevShop
-Site vitrine E-commerce minimaliste 
+Application E-commerce dynamique avec un design minimaliste 
 
 ## Installation
 `
