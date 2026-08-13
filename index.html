@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +20,7 @@
             <nav>
             <div class="icon-panier">
                 <span id="compteur">0</span>
-                <img src="images/icon-panier.png">
+                <img src="images/icon-panier.png" alt="icon-panier">
             </div>
             <button id="btn-panier">Voir mon panier</button>
         </nav>
@@ -46,10 +49,16 @@
             <p id="erreur"></p>
             <div id="produits"></div>
         </section>
-        <section id="panier">
-            <h2>Mon panier</h2>
+        <aside id="panier">
+            <div class="en-tête">
+                <h2>Mon panier</h2>
+                <buton id="fermer-panier">
+                <img src="images/croix.png" alt="icon-fermer">
+                </buton>
+            </div>
+            
             <div id="contenu-panier"></div>
-        </section>
+        </aside>
     </main>
     <script src="script.js"></script>
     <footer>&copy;DevShop
