@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DevShop</h1>
+        <div class="recherche">
+            <input type="text" id="recherche" placeholder="Tapez votre recherche ici...">
+            <span><img src="images/icon-loup-blanche.png" alt="icon-loup-blanche"></span>
+        </div>
+        
+            <nav>
+            <div class="icon-panier">
+                <span id="compteur">0</span>
+                <img src="images/icon-panier.png">
+            </div>
+            <button id="btn-panier">Voir mon panier</button>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="text-hero">
+                <h2>Le style parfait pour les passionnés de la tech</h2>
+                <p>Découvrez notre collection exclusive de <span id="bold-paragraph"> vêtements et accessoires
+                    conçue pour votre confort et votre style</span>
+                </p>
+                <button id="collection">Explorer ma collection</button>
+            </div>
+
+        </section>
+        <section id="cartes-produit">
+            <h2>Découvrez nos produits</h2>
+            <div class="conteneur-boutons">
+                <button class="categorie btn-all" data-categorie="all">Tous</button>
+                <button class="categorie" data-categorie="electronics">Électronique</button>
+                <button class="categorie" data-categorie="jewelery">Bijoux</button>
+                <button class="categorie" data-categorie="men's clothing">Homme</button>
+                <button class="categorie" data-categorie="women's clothing">Femme</button>
+            </div>
+            <p id="loader">Chargement des produits...</p>
+            <p id="erreur"></p>
+            <div id="produits"></div>
+        </section>
+        <section id="panier">
+            <h2>Mon panier</h2>
+            <div id="contenu-panier"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>&copy;DevShop
+    <img src="images/ordinateur.png" alt="icon-shoping">
+    </footer>
+</body>
+</html> 
