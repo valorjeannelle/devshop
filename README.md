@@ -1,6 +1,14 @@
-#DevShop
+# DevShop
 Site vitrine E-commerce minimaliste 
 
-##Installation
-```bash
-git clone 
+## Installation
+`
+git clone https://github.com/valorjeannelle/devshop.git`
+
+### Technologie
+-HTML 
+-CSS
+-JavaScript
+
+###Lien live
+https://valorjeannelle.github.io/devshop/
