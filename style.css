@@ -1,4 +1,4 @@
-
+ju
 :root{
     --gris-clair:#F8F9FA;
     --jaune-vibrant:#FFC403;
@@ -362,11 +362,10 @@ footer{
         gap: 15px;
     }
 
-    .text-hero h2 {
+    .text-hero h2 ,span{
         font-size: 28px;
-        color:var(--bleu-clair);
         font-weight: 800;
-        text-shadow: 2px 2px 6px var(--jaune-vibrant);
+        text-shadow: 2px 2px 6px white;
         letter-spacing: -0.5px;
         }
     }
