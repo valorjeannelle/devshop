@@ -335,7 +335,10 @@ footer{
         padding: 10px;
         gap: 15px;
     }
-
+h1{
+    color:#111;
+    font-weight:800;
+}
     nav {
         flex-wrap: wrap;
         justify-content: center;
