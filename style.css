@@ -364,7 +364,7 @@ footer{
 
     .text-hero h2 {
         font-size: 28px;
-        color:var(--bleu);
+        color:var(--bleu-clair);
         font-weight: 800;
         text-shadow: 2px 2px 6px var(--jaune-vibrant);
         letter-spacing: -0.5px;
