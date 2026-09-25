@@ -320,9 +320,6 @@ footer{
         #F8F9FA 55%,
         #FFF3BF 100%
     );
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -383,6 +380,7 @@ footer{
     /* Cartes dans le panier : bords droits */
     #contenu-panier article {
         border-radius: 0;
+        border:none;
     }
 
     article img {
