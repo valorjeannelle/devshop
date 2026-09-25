@@ -1,14 +1,17 @@
-# DevShop
-Application E-commerce dynamique avec un design minimaliste 
+DevShop
 
-## Installation
-`
-git clone https://github.com/valorjeannelle/devshop.git`
+Application e-commerce dynamique avec un design minimaliste.
 
-### Technologie
-- HTML 
-- CSS
+Installation
+
+git clone https://github.com/valorjeannelle/devshop.git
+
+Technologies
+
+- HTML5
+- CSS3
 - JavaScript
 
-### Lien live
+Lien live
+
 https://valorjeannelle.github.io/devshop/
