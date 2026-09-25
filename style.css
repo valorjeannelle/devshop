@@ -287,47 +287,7 @@ footer{
     padding: var(--bouton-padding);
     width: 100%;
 }
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    header {
-        padding: 15px 30px;
-    }
-
-    input {
-        width: 300px;
-    }
-
-    #hero {
-        min-height: 60vh;
-        padding: 30px;
-    }
-
-    .text-hero {
-        width: 60%;
-        margin-left: 20px;
-    }
-
-    .text-hero h2 {
-        font-size: 38px;
-    }
-
-    #produits, 
-    #contenu-panier {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        justify-items: center;
-    }
-
-    article {
-        width: 100%;
-        max-width: 320px;
-    }
-
-    article img {
-        width: 200px;
-        height: 200px;
-    }
-}
+     
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -418,5 +378,51 @@ footer{
     footer {
         font-size: 20px;
         text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    #hero {
+        min-height: 60vh;
+        padding: 30px;
+    }
+
+    .text-hero {
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .text-hero h2 {
+        font-size: 38px;
+    }
+
+    #produits,
+    #contenu-panier {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+    }
+
+    article {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    article img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Cartes dans le panier : bords droits */
+    #contenu-panier article {
+        border-radius: 0;
     }
 }
